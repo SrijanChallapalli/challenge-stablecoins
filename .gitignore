@@ -21,3 +21,6 @@ node_modules
 
 # cli
 dist
+
+# Speedrun AI-guided challenge local progress
+.challenge-ai/
