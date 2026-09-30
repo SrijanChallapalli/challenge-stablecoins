@@ -7,9 +7,6 @@
 
 🧪 An open-source, up-to-date toolkit for building decentralized applications (dapps) on the Ethereum blockchain. It's designed to make it easier for developers to create and deploy smart contracts and build user interfaces that interact with those contracts.
 
-> [!NOTE]
-> 🤖 Scaffold-ETH 2 is AI-ready! It has everything agents need to build on Ethereum. Check `.agents/`, `.claude/`, `.opencode` or `.cursor/` for more info.
-
 ⚙️ Built using NextJS, RainbowKit, Hardhat, Wagmi, Viem, and Typescript.
 
 - ✅ **Contract Hot Reload**: Your frontend auto-adapts to your smart contract as you edit it.
@@ -91,30 +88,6 @@ yarn start
 > _Note: the UI in screenshots may differ slightly from the current version._
 
 > 👩‍💻 Rerun `yarn deploy` whenever you want to deploy contract changes to the frontend. Run `yarn deploy --reset` for a completely fresh deploy, even when contracts are unchanged.
-
----
-
-⚠️ We've disabled Cursor auto-suggestions (Tab completions and predictions) via `.vscode/settings.json` to reduce distractions while you code. AI chat and agent features are still enabled, and we've included `AGENTS.md` and `CLAUDE.md` files with project context to help AI assistants understand the codebase.
-
-🔒 Want to disable AI and do everything yourself? (Recommended for deeper learning):
-
-- Cursor: add `*` to a `.cursorignore` file in the root of your project
-- VSCode: set `chat.disableAIFeatures` to `true` in `.vscode/settings.json` file
-
----
-
-## 🤖 AI-Guided Learning Mode (Optional)
-
-Want an interactive tutor that teaches you the concepts while you code? This challenge supports **AI-guided learning mode**!
-
-1. Open this project in an AI coding tool like **Claude Code** or **Cursor**
-2. Run the `/start` command
-3. The AI tutor will teach you each concept, then give you a coding task
-4. You write the code, say **"check"**, and the AI runs the tests
-5. Say **"hint"** for help, or **`/skip`** if you want the AI to show you the solution
-6. Your progress is saved — use `/start` to resume anytime
-
-The AI won't just give you the answers — it teaches first, then has you implement the code yourself. Tests validate your work, and the AI helps you debug if something doesn't pass.
 
 ---
 
